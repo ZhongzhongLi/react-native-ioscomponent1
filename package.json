@@ -1,0 +1,26 @@
+{
+  "name": "react-native-ioscomponent1",
+  "version": "1.0.0",
+  "description": "练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhongzhongLi/react-native-ioscomponent1.git"
+  },
+  "keywords": [
+    "ioscomponent1"
+  ],
+  "author": "mirli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhongzhongLi/react-native-ioscomponent1/issues"
+  },
+  "homepage": "https://github.com/ZhongzhongLi/react-native-ioscomponent1#readme",
+
+  "dependencies": {
+
+  }
+}
