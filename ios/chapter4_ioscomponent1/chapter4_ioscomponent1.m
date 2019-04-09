@@ -25,8 +25,11 @@ RCT_EXPORT_METHOD(print:(NSString *)name info:(NSDictionary *)info) {
 
 RCT_EXPORT_METHOD(showAlert:(NSString *)title message:(NSString *)message) {
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle: title message: message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-    [alert show];
+    dispatch_async(dispatch_get_main_queue(), ^{
+       
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: title message: message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alert show];
+    });
 }
 
 @end

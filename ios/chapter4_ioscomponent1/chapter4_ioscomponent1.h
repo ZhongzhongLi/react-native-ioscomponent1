@@ -15,7 +15,4 @@
 
 @interface chapter4_ioscomponent1 : NSObject <RCTBridgeModule>
 
-- (void)print;
-- (void)showAlert;
-
 @end
