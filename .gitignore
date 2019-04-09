@@ -15,7 +15,7 @@ default.vm
 *.patch
 .svn/
 .git/
-
+.gitconfig
 # IDE generated files #
 #######################
 *.iml
